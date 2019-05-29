@@ -1,0 +1,14 @@
+Fui al nutriologo y me dijo que estaba gordito. Si mi peso es la variable peso y tengo que llegar al peso ideal
+ ¿En cuantas semanas llegaré a ese peso si bajo X kilos por semana?
+
+INICIO
+    LEER peso
+    LEER pesoIdeal
+    LEER kilosXSemana
+
+    PARA contador = peso MIENTRAS contador >= pesoIdeal RESTAR contador = peso - kilosXSemana
+        semanas = (peso - pesoIdeal) / kilosXSemana
+        ESCRIBE semanas
+	FIN-PARA
+	 
+FIN

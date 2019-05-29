@@ -1,0 +1,9 @@
+INICIO
+    LEER NumeroAMultiplicar
+
+	PARA contador = 1 MIENTRAS contador <= 10 AUMENTA contador = contador + 1
+		tablaMultiplicacion = NumeroAMultiplicar * contador
+        ESCRIBE tablaMultiplicacion 
+	FIN-PARA
+	 
+FIN
